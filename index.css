@@ -1,0 +1,83 @@
+
+body {
+    margin: 0;
+    font-family:monospace, sans-serif ;
+}
+.container {
+     display: flex;
+     flex-direction: column;
+ }
+ ul li {
+    float: right;
+    display: inline;
+
+} 
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    color : white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace, sans-serif;
+}
+.navigation{
+    background-color: maroon;
+    padding-bottom: 20px;
+    
+}
+#welcome-section{
+ text-align: center;
+ font-family: monospace, sans-serif;
+ font-size: 30px;
+ margin-top: 0;
+ background-color: gray;
+ color: white;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(173, 10, 10);
+    color: white;
+}
+.albums{
+    display:flex;
+    justify-content: center;
+}
+.albums img {
+    height: 350px;
+    width: 350px;
+    border-radius: 4px;
+}
+#projects button {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    padding : 15px 30px 15px 30px;
+    margin-bottom: 10px;
+}
+.contacts {
+    display:flex ;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+}
+.social-handles{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social-handles img {
+    border-radius: 50%;
+
+}
+.footer{
+    background-color: gray;
+    text-align: right;
+}
